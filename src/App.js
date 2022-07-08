@@ -30,11 +30,24 @@ function App() {
         <About />
         <Services />
         <Skills />
-        <Resume/>
+        <Resume />
         <Portfolio />
         <Contact />
-      <Footer />
+        <Footer />
       </Fragment> : <Loading />}
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
   );
 }

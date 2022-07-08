@@ -11,10 +11,10 @@ function MyRodal(props) {
       closeOnEsc='true'
       animation='slideLeft'
       height='250'
-      showMax='false'
+      // showMax='false'
       width='250'
     >
-      <div className='modal'>{props.children}</div>
+      <div className='modals'>{props.children}</div>
 
     </Rodal>
   )

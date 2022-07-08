@@ -44,18 +44,20 @@ function Banner() {
                                 </a>
                             </div>
                             <h1>Micheal</h1>
-                            <div >
+                            <div>
+                                <p>A freelance</p> 
                                 <TypeAnimation
                                     cursor={true}
                                     sequence={[
-                                        'A web Developer',
+                                        'Web Developer',
                                         2000,
-                                        'An App Developer',
+                                        'Software engineer',
                                         2000,
-                                        'A Freelancer',
+                                        'app develeloper',
                                         2000,
                                     ]}
-                                    wrapper="h3"
+                                    wrapper="p"
+                                    className='typing'
                                     repeat={Infinity}
                                 />
                             </div>
