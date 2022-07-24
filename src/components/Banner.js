@@ -5,17 +5,6 @@ import { Icon } from '@iconify/react';
 import { Element, scroller } from 'react-scroll'
 import banner from '../assets/images/bg-2.jpg'
 import cv from '../assets/images/Andrew-Micheal.pdf'
-import {
-    MDBContainer,
-    MDBNavbar,
-    MDBNavbarBrand,
-    MDBNavbarToggler,
-    MDBNavbarNav,
-    MDBNavbarItem,
-    MDBNavbarLink,
-    MDBCollapse,
-    MDBIcon
-} from 'mdb-react-ui-kit';
 // import mic from '../assets/images/andrewLogo.png'
 // import About from './About';
 // import Portfolio from './Portfolio';
@@ -40,38 +29,8 @@ function Banner() {
                 backgroundSize: 'cover',
                 backgroundRepeat: 'noRepeat',
             }}
-                className='f-section'>
-                {/* <MDBNavbar className='my-header' expand='lg' light bgColor='light'>
-                    <MDBContainer fluid>
-                        <MDBNavbarBrand className='brand' href='#'>ANDREW</MDBNavbarBrand>
-                        <MDBNavbarToggler
-                            type='button'
-                            aria-expanded='false'
-                            aria-label='Toggle navigation'
-                            onClick={() => setShowNav(!showNav)}
-                        >
-                            <MDBIcon icon='bars' fas />
-                        </MDBNavbarToggler>
-                        <MDBCollapse className='my-nav' navbar show={showNav}>
-                            <MDBNavbarNav>
-                                <MDBNavbarItem>
-                                    <MDBNavbarLink onClick={contactScroll} active aria-current='page' href='#'>
-                                        About
-                                    </MDBNavbarLink>
-                                </MDBNavbarItem>
-                                <MDBNavbarItem>
-                                    <MDBNavbarLink href='#'>Resume</MDBNavbarLink>
-                                </MDBNavbarItem>
-                                <MDBNavbarItem>
-                                    <MDBNavbarLink href='#'>Portfolio</MDBNavbarLink>
-                                </MDBNavbarItem>
-                                <MDBNavbarItem>
-                                    <MDBNavbarLink onClick={contactScroll} href='#'>Contact</MDBNavbarLink>
-                                </MDBNavbarItem>
-                            </MDBNavbarNav>
-                        </MDBCollapse>
-                    </MDBContainer>
-                </MDBNavbar> */}
+            className='f-section'>
+            
                 <div className='hero'>
                     <ul data-aos="zoom-in-up" >
                         <li>
