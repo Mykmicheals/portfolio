@@ -10,7 +10,7 @@ function About() {
                 <div className='about-card'>
                     <img data-aos='fade-right' src={micPort} alt='image1' />
                     <div data-aos='fade-left' className='about-word'>
-                        <p data-aos='fade-up' data-aos-delay='500' >A self-motivated fullstack developer with  knowledge and proficiency in React, Django, Express, mySql, and mobile responsive web development, as well as strong skills and ability in writing clean and efficient code.</p>
+                        <p data-aos='fade-up' data-aos-delay='500' >A self-motivated fullstack developer with  knowledge and proficiency in React, Django, Express, mySql, and mobile development, as well as strong skills and ability in writing clean and efficient code.</p>
                         <h3 data-aos='fade-up' data-aos-delay='700'>Here are a Few Highlights:</h3>
                         <div data-aos='fade-up' data-aos-delay='900' className='about-inner'>
                             <i><Icon icon="ant-design:arrow-right-outlined" /></i>
