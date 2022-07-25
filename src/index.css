@@ -1,6 +1,3 @@
-html{
-  background-color: #030f27;
-}
 
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
@@ -43,6 +40,7 @@ h5 {
   border-bottom: 4px solid #1f221f;
   width: 20%;
   padding-bottom: 1rem;
+ 
 }
 
 /* ------------header------------ */
@@ -58,6 +56,7 @@ h5 {
   top: 0;
   color: white;
   z-index: 1;
+  box-shadow: 5px 0px 1px rgba(0, 0, 0, 2)
 }
 .navigation{
   display: flex;
@@ -69,6 +68,72 @@ h5 {
 }
 
 /* -----------header-end--------- */
+
+
+/* --------hero-section---------- */
+
+.hero-section {
+  background-color: #333333;
+  position: relative;
+  height: 500px;
+  padding: 1px;
+}
+
+.hero-inner{
+  margin:8rem auto;
+  text-align: center;
+  position: relative;
+}
+
+.hero-inner h3{
+  font-size: 3rem;
+  margin: 3rem auto;
+}
+
+#frelance-word{
+position: absolute;
+margin: auto;
+text-align: center;
+left: 34%;
+font-size: 1.3rem;
+}
+
+.typing {
+  color: rgb(195, 192, 192);
+  font-size: 22px;
+  position: absolute;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  left: 45%;
+  display: inline;
+  margin-left: 2rem;
+}
+
+.btns {
+  margin: 4rem 2rem;
+  display: inline-block;
+  min-width: 145px;
+  background-color: #319be6;
+  color: rgb(233, 228, 228);
+  padding: 14px 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  overflow: hidden;
+}
+
+.btns:hover {
+  background: #126b83;
+  cursor: pointer;
+}
+
+/* --------hero-section-end ---------- */
 
 .f-section {
   color: white;
@@ -83,12 +148,9 @@ h5 {
   padding-top: 4rem;
   text-align: center;
   width: 70%;
-
   position: relative;
   z-index: 2;
   min-width: 300px;
-  background-attachment: fixed;
-
 }
 
 .hero h1 {
@@ -99,9 +161,6 @@ h5 {
   color: #ffffff;
 }
 
-/* .my-nav{
-  margin-left: 35rem;
-} */
 
 .my-nav li{
   padding: 0rem 2rem;
@@ -137,41 +196,9 @@ h5 {
   border-radius: 50%;
 }
 
-.btns {
-  position: relative;
-  display: inline-block;
-  min-width: 145px;
-  background-color: #319be6;
-  color: rgb(233, 228, 228);
-  padding: 14px 0;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-align: center;
-  border: none;
-  border-radius: 24px;
-  outline: none;
-  overflow: hidden;
-  z-index: 2;
-  margin: 1rem;
-}
 
-.btns:hover {
-  background: #126b83;
-  cursor: pointer;
-}
 
-.typing{
-      color: rgb(195, 192, 192);
-      font-size: 22px;
-      font-weight: 600;
-      text-transform: capitalize;
-      letter-spacing: 1px;
-      margin: 0px 0px 50px;
-      display: inline;
-      margin-top: 9rem;
-}
+
 
 /* 
 responsive f-section */

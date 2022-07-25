@@ -6,6 +6,7 @@ import Banner from './components/Banner';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import HeroSection from './components/HeroSection';
 import Loading from './components/Loading';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
@@ -29,6 +30,7 @@ function App() {
       {load ? <Fragment>
         <Header />
         {/* <Banner /> */}
+        <HeroSection />
         <About />
         <Services />
         <Skills />
