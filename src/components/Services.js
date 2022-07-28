@@ -4,7 +4,7 @@ import React, { Fragment } from 'react'
 
 function Services() {
     return (
-        <div>
+        <div className='services-outer'>
             <h2>Services</h2>
             <h5>services Offered</h5>
             <Fragment>

@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 
 function Skills() {
     return (
-        <div>
+        <div className='skills-outer'>
             <h2>Skills</h2>
             <h5>Programming skills</h5>
             <div className="stacks">

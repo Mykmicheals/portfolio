@@ -1,6 +1,7 @@
 import React from 'react'
 import TypeAnimation from 'react-type-animation';
 import { Element, scroller } from 'react-scroll'
+import video from '../assets/images/bgvideo.mp4'
 
 function HeroSection() {
 
@@ -18,10 +19,10 @@ function HeroSection() {
   return (
       <div className='hero-section'>
           <div className='hero-inner'>
-              <p>Hey, my name is</p>
+              <p>Hey, My Name Is</p>
               <h3>Andrew Micheal</h3>
               <div>
-                  <p id='frelance-word'>A freelance</p>
+                  <p id='frelance-word'>A Freelance </p>
                   <TypeAnimation
                       cursor={true}
                       sequence={[
@@ -37,7 +38,7 @@ function HeroSection() {
                       repeat={Infinity}
                   />
               </div>
-              <button onClick={aboutScroll} className='btns'>Explore</button>
+            
               <button onClick={contactScroll} className='btns'>Hire Me</button>
           </div>
     </div>
