@@ -1,7 +1,6 @@
 import React from 'react'
 import TypeAnimation from 'react-type-animation';
 import { Element, scroller } from 'react-scroll'
-import video from '../assets/images/bgvideo.mp4'
 
 function HeroSection() {
 
